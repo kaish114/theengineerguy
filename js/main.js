@@ -1,3 +1,8 @@
+//Js code to get current date time
+var today = new Date();
+document.getElementById('dtText').innerHTML="Today's Date is :"+today;
+//Date time ends here
+
 (function ($) {
 	"use strict";
 	var nav = $('nav');
